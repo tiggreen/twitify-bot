@@ -1,0 +1,20 @@
+{
+  "name": "twitify",
+  "version": "1.0.0",
+  "description": "Twitify is a service to check if a given twitter handle is available or not.",
+  "main": "twitify.js",
+  "dependencies": {
+    "express": "^4.10.6",
+    "body-parser": "^1.10.0",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "twitter"
+  ],
+  "author": "Tigran Hakobyan",
+  "license": "MIT"
+}

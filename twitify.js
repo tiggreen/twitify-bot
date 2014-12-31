@@ -35,8 +35,8 @@ if (!twitter_token.length || !twitter_token) {
 	throw new Error('Oh snap! I think you forgot your twitter token.'); 
 };
 
-// Do we have a better idea here? Maybe random?
-var port = 8080;
+// Heroku dynamically assigns a port, so we can't set the port to a fixed number. 
+var port = process.env.PORT || 8080;
 
 var router = express.Router();        
 
